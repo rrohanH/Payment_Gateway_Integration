@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>The Sparks Foundation TASK 3</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="topnav" id="myTopnav">
+			<a href="./index.html">Home</a>
+			<a href="./contact.html" class="active">Contact Us</a>
+			<a href="https://www.thesparksfoundationsingapore.org/"
+				>About The Sparks Foundation</a
+			>
+			<a href="javascript:void(0);" class="icon" onclick="openNavbar()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+
+		<div class="contactContainer">
+			<div class="contactBackground">
+				<img class="contactImage" src="img/c.png" alt="Contact Us" />
+				<form class="contactForm">
+					<h1 class="contactTitle">Contact Us</h1>
+
+					<div class="contactInput">
+						<span class="contactIcon">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</span>
+						<input
+							class="input100"
+							type="text"
+							required
+							name="name"
+							placeholder="Name"
+						/>
+					</div>
+
+					<div
+						class="contactInput"
+						data-validate="Valid email is required: ex@abc.xyz"
+					>
+						<span class="contactIcon">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+						<input
+							class="input100"
+							type="text"
+							name="email"
+							placeholder="Email"
+							required
+						/>
+					</div>
+
+					<div
+						class="contactInput"
+						data-validate="Message is required"
+					>
+						<textarea
+							class="input100"
+							name="message"
+							required
+							rows="4"
+							placeholder="Message"
+						></textarea>
+					</div>
+
+					<div class="container-contact100-form-btn">
+						<button class="contact100-form-btn">Send</button>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<script src="js/main.js"></script>
+	</body>
+</html>

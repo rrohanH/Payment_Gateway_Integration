@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>The Sparks Foundation TASK 3</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="topnav" id="myTopnav">
+			<a href="./index.html" class="active">Home</a>
+			<a href="./contact.html">Contact Us</a>
+			<a href="https://www.thesparksfoundationsingapore.org/"
+				>About The Sparks Foundation</a
+			>
+			<a href="javascript:void(0);" class="icon" onclick="openNavbar()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+
+		<div class="mainContainer">
+			<div>
+				<h1>THE SPARKS FOUNDATION</h1>
+				<p>Task 3 - Payment Gateway Integration</p>
+			</div>
+			<form>
+				<script
+					src="https://checkout.razorpay.com/v1/payment-button.js"
+					data-payment_button_id="pl_I02uJa3NoO4f60"
+					async
+				></script>
+			</form>
+		</div>
+		<script src="js/main.js"></script>
+	</body>
+</html>
